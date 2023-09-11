@@ -1,0 +1,122 @@
+.header {background-color: rgb(221, 92, 152);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    font-size:24px;
+}
+
+.intro, .description, .buttonheader, .buttontext    {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    color:white;
+}
+
+.top, .header, .eras, .quote   {
+    padding: 0px 50px;
+}
+
+.intro  {
+    font-size:48px; 
+    font-weight:bolder;
+}
+
+.description    {
+    font-size:18px; 
+}
+
+button  {
+    background:#3882F6;
+    color:white;
+    width:100px;
+}
+
+.main    {display:flex;
+    flex-direction: column;
+}
+
+.textsection    {display:flex;
+flex-direction: column;
+gap:10px;}
+
+.top    {
+    background-color: rgb(221, 92, 152);
+    display:flex;
+align-items:center;
+justify-content: space-between;
+gap:100px;
+}
+
+.eras   {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:50px;
+}
+
+.informationtext    {
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+    padding:30px 0px;
+}
+
+.pics   {display:flex;
+justify-content: space-between;
+gap:20px;
+}
+
+.wave, .wonderland, .inception, .guerrilla  {
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+#border {border-color:rgb(253, 169, 183);
+    border-radius:25px;
+    border-style:solid;
+border-width:5px;}
+
+.quote  {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-size:36px;
+font-style:italic; 
+color:#1F2937;
+background-color: rgb(235, 132, 180);
+padding-top:50px;
+padding-bottom:50px;}
+
+.bywiki {text-align:right;
+font-weight:bold;}
+
+.carebears  {display:flex;
+flex-direction: column;
+width:1060px;
+flex-wrap:wrap;}
+
+.bottom {padding:50px;
+}
+
+.container  {background-color:rgb(235, 132, 180);
+display:flex;
+justify-content: space-between;
+padding:50px;}
+
+.buttonheader       { 
+    font-size:24px;
+font-weight:bold;}
+
+.footer {
+    display:flex;
+    background-color: rgb(221, 92, 152);
+    justify-content: center;
+    padding:25px;
+}
+
+a{text-decoration:none;
+color:white;}
